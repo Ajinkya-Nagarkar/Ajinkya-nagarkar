@@ -62,19 +62,23 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=AjinkyaNagarkar&show_icons=true&theme=tokyonight" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=AjinkyaNagarkar&theme=tokyonight" />
+  <img width="33%" src="https://github-readme-stats.vercel.app/api?username=Ajinkya-Nagarkar&show_icons=true&theme=tokyonight" />
+
+<img width="33%" src="https://github-readme-streak-stats.herokuapp.com/?user=Ajinkya-Nagarkar&theme=tokyonight" />
+
+<img width="33%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ajinkya-Nagarkar&layout=compact&theme=tokyonight" />
+
 </p>
 
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AjinkyaNagarkar&layout=compact&theme=tokyonight" />
-</p>
+<!-- <p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Ajinkya-Nagarkar&layout=compact&theme=tokyonight" />
+</p> -->
 
 ---
 ### 🐍 Contribution Graph
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Ajinkya-Nagarkar/Ajinkya-Nagarkar/output/github-contribution-grid-snake.svg" alt="Contribution snake animation" />
+  <img src="https://raw.githubusercontent.com/Ajinkya-Nagarkar Ajinkya-Nagarkar/output/github-contribution-grid-snake.svg " />
 </p>
 
 ---
