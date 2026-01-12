@@ -6,35 +6,23 @@ on:
     workflow_dispatch:
 
 jobs:
-    stats:
+    build:
         runs-on: ubuntu-latest
+
         steps:
             - name: Checkout repo
               uses: actions/checkout@v4
 
-            - name: Generate stats
-              uses: anuraghazra/github-readme-stats@master
-              with:
-                  username: Ajinkya-Nagarkar
-                  theme: tokyonight
-                  show_icons: true
-                  hide_border: true
-                  output: stats.svg
+            - name: Create assets directory
+              run: mkdir -p assets
 
-            - name: Generate top languages
-              uses: anuraghazra/github-readme-stats@master
-              with:
-                  username: Ajinkya-Nagarkar
-                  layout: compact
-                  theme: tokyonight
-                  hide_border: true
-                  output: top-langs.svg
+            - name: Download GitHub stats
+              run: |
+                  curl -o assets/stats.svg "https://github-readme-stats.vercel.app/api?username=Ajinkya-Nagarkar&show_icons=true&theme=tokyonight&hide_border=true"
+                  curl -o assets/top-langs.svg "https://github-readme-stats.vercel.app/api/top-langs/?username=Ajinkya-Nagarkar&layout=compact&theme=tokyonight&hide_border=true"
 
             - name: Commit stats
               run: |
-                  mkdir -p assets
-                  mv stats.svg assets/stats.svg
-                  mv top-langs.svg assets/top-langs.svg
                   git config user.name github-actions
                   git config user.email github-actions@github.com
                   git add assets
